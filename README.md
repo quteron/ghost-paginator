@@ -6,7 +6,11 @@ Custom handlebars helper to improve Ghost pagination. It adds possibility to dis
 
 ![preview](https://github.com/quteron/ghost-paginator/raw/master/preview.jpg)
 
-## Code Example
+## Installation
+
+  `npm install ghost-paginator`
+
+## Example
 
 Register custom helper in the `config.js` ghost file:
 
@@ -87,10 +91,6 @@ You can also include previous and next links using ghost built-in pagination att
 ```
 
 To remove undesired whitespaces, look at [Whitespace Control](http://handlebarsjs.com/expressions.html#whitespace-control) section on the [official handlebars site](http://handlebarsjs.com/).
-
-## Installation
-
-  `npm install ghost-paginator`
 
 ## Tests
 
