@@ -4,7 +4,9 @@ Ghost-Paginator
 
 Custom handlebars helper to improve Ghost pagination. It adds possibility to display first, previous, current, next and last pages links:
 
-![preview](https://github.com/quteron/ghost-paginator/raw/master/preview.jpg)
+<p align="center">
+  <img src="https://github.com/quteron/ghost-paginator/raw/master/preview.jpg" alt="preview" width="40%">
+</p>
 
 ## Installation
 
