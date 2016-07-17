@@ -1,6 +1,6 @@
 {
   "name": "ghost-paginator",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Custom handlebars helper to improve ghost pagination",
   "main": "index.js",
   "scripts": {
