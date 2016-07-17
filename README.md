@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/quteron/ghost-paginator.svg?branch=master)](https://travis-ci.org/quteron/ghost-paginator)
-
-[![Coverage Status](https://coveralls.io/repos/github/quteron/ghost-paginator/badge.svg?branch=master)](https://coveralls.io/github/quteron/ghost-paginator?branch=master)
+[![Build Status](https://travis-ci.org/quteron/ghost-paginator.svg?branch=master)](https://travis-ci.org/quteron/ghost-paginator)  [![Coverage Status](https://coveralls.io/repos/github/quteron/ghost-paginator/badge.svg?branch=master)](https://coveralls.io/github/quteron/ghost-paginator?branch=master)
 
 Ghost-Paginator
 =========
