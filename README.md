@@ -29,25 +29,25 @@ Update ghost template `partials/pagination.hbs`:
 <nav class="pagination" role="navigation">
     {{#paginate page pages}} 
         {{#first}} 
-            <a class="btn" href="{{page_url page}}">{{page}}</a>
+            <a href="{{page_url page}}">{{page}}</a>
         {{/first}} 
         {{#prev}} 
             {{#if more}} 
-                <span class="btn more">&hellip;</span>
+                <span>&hellip;</span>
             {{/if}} 
-            <a class="btn" href="{{page_url page}}">{{page}}</a>
+            <a href="{{page_url page}}">{{page}}</a>
         {{/prev}}
         {{#active}} 
-            <span class="btn active">{{page}}</span>
+            <span>{{page}}</span>
         {{/active}} 
         {{#next}} 
-            <a class="btn" href="{{page_url page}}">{{page}}</a>
+            <a href="{{page_url page}}">{{page}}</a>
             {{#if more}} 
-                <span class="btn more">&hellip;</span>
+                <span>&hellip;</span>
             {{/if}}
         {{/next}}
         {{#last}} 
-            <a class="btn" href="{{page_url page}}">{{page}}</a>
+            <a href="{{page_url page}}">{{page}}</a>
         {{/last}} 
     {{/paginate}} 
 </nav>
