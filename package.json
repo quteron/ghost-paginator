@@ -1,0 +1,33 @@
+{
+  "name": "ghost-paginator",
+  "version": "0.0.5",
+  "description": "Custom handlebars helper to improve ghost pagination",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quteron/ghost-paginator.git"
+  },
+  "keywords": [
+    "ghost",
+    "pagination",
+    "handlebars",
+    "handlebars helpers"
+  ],
+  "author": "Quteron <quteron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quteron/ghost-paginator/issues"
+  },
+  "homepage": "https://github.com/quteron/ghost-paginator#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  }
+}
