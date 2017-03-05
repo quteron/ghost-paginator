@@ -48,7 +48,9 @@ function paginatePrev(context, current, pages) {
     if(prevCount > 0) {
         context.prev = {
             page: current - 1,
-            more: prevCount - 1 > 0
+            more: prevCount - 1 > 0,
+            prev_count: prevCount - 1,
+            prev_page: current - 2
         };
     }
 }
@@ -76,7 +78,9 @@ function paginateNext(context, current, pages) {
     if(nextCount > 0) {
         context.next = {
             page: current + 1,
-            more: nextCount - 1 > 0
+            more: nextCount - 1 > 0,
+            next_count: nextCount - 1,
+            next_page: current + 2
         };
     }
 }
